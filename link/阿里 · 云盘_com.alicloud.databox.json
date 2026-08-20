@@ -1,0 +1,22 @@
+{
+  "name": "阿里 · 云盘",
+  "category": "link",
+  "enabled": true,
+  "actionMode": "direct_open",
+  "priority": 0,
+  "matchRegex": "aliyundrive\\.com|alipan\\.com",
+  "triggerRegexes": [
+    "aliyundrive\\.com",
+    "alipan\\.com"
+  ],
+  "parameterRegex": "",
+  "extractionRegexes": [],
+  "parseAfterRedirect": false,
+  "clearClipboardAfterJump": false,
+  "target": {
+    "type": "url",
+    "template": "",
+    "packageName": "com.alicloud.databox",
+    "action": "android.intent.action.VIEW"
+  }
+}
